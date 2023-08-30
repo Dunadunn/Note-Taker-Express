@@ -1,3 +1,4 @@
+//Refactored index.js
 let noteTitle;
 let noteText;
 let saveNoteBtn;
@@ -71,6 +72,9 @@ const handleNoteSave = () => {
     title: noteTitle.value,
     text: noteText.value,
   };
+  // Log the note being saved
+  console.log('Saving note:', newNote);
+
   saveNote(newNote).then(() => {
     getAndRenderNotes();
     renderActiveNote();
@@ -119,6 +123,8 @@ const handleRenderSaveBtn = () => {
 // Render the list of note titles
 const renderNoteList = async (notes) => {
   let jsonNotes = await notes.json();
+  // Log the fetched notes
+  console.log('Fetched notes:', jsonNotes);
   if (window.location.pathname === '/notes') {
     noteList.forEach((el) => (el.innerHTML = ''));
   }

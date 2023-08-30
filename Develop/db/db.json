@@ -1,6 +1,61 @@
 [
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
+  {
+    "title": "Test Title",
+    "text": "Test text"
+  },
+  {
+    "title": "We title this one yeah?",
+    "text": "The car ran really fast over the mountain",
+    "id": null
+  },
+  {
+    "title": "One more test for save",
+    "text": "Ideally this will save to the db.json so that we have an additional note with the previous",
+    "id": null
+  },
+  {
+    "title": "can we delete",
+    "text": "bonus time",
+    "id": null
+  },
+  {
+    "title": "Needed an ID",
+    "text": "Without an id we cannot delete",
+    "id": null
+  },
+  {
+    "title": "added console log",
+    "text": "still not getting an id so testing",
+    "id": null
+  },
+  {
+    "title": "NaN",
+    "text": "updated id assignment",
+    "id": 1
+  },
+  {
+    "title": "we got id",
+    "text": "is this one unique?",
+    "id": 2
+  },
+  {
+    "title": "3rd try",
+    "text": "gotta have id of 3!",
+    "id": 3
+  },
+  {
+    "title": "test4",
+    "text": "test4 5",
+    "id": 4
+  },
+  {
+    "title": "test 5?",
+    "text": "test 5",
+    "id": 5
+  },
+  {
+    "title": "Do we have",
+    "text": "Functionality now?",
+    "id": null
+  }
 ]
