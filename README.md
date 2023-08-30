@@ -45,5 +45,5 @@ Currently, there are no tests implemented. If you'd like to contribute and add t
 
 For any questions, please contact me with the information below:
 
-GitHub: [@YourGitHubUsername](https://github.com/YDunadunn/)  
+GitHub: [@YourGitHubUsername](https://github.com/Dunadunn/)  
 Email: alxrodrig10@gmail.com
